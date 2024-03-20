@@ -1,0 +1,155 @@
+   .cont{
+      /* background-image:url('BackgroundImage.jpg') ; */
+      height: 100vh;
+      width: 100vw;
+      /* background: rgb(78, 59, 45); */
+    /* background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(1,56,150,1) 43%, rgba(0,154,255,1) 100%); */
+    background-image: url("/Users/raghavkatyal/Documents/AbusiveContentDetection/FrontEnd/src/assets/bgImg.png");
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-size: cover;
+ }
+  .content {
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      height: 7vh;
+      list-style-type: none;
+      width: 100vw;
+      color: rgb(255, 255, 255);
+      box-shadow: 0 4vh 4vw rgba(0, 0, 0, 0.5);
+    }
+    .left{
+        display: flex;
+        align-items: center;
+        
+    }
+    .left li a{
+        text-decoration: none;
+        color: white;
+    }
+    .right{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-evenly; */
+        margin-right: 3vw;
+    }
+    .right > a{
+        padding: 0.3vw 2vw;
+        border: solid white 2px;
+        background: rgb(56, 116, 138);
+        color: white;
+        text-decoration: none;
+        border-radius: 15px;
+    }
+    .right > a:hover{
+        background: white;
+        color: black;
+    }
+    .right > img {
+        height: 3vw;
+        border-radius: 50%;
+        margin-left: 2vw;
+    }
+  ul li{
+      padding :1vw;
+      cursor: pointer;
+  }
+  .h{
+      /* margin-left: 27vw; */
+      color:white;
+     font-size: 8vh;
+     font-family: "Madimi One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     transition-duration: 5s;
+  
+  
+  }
+  .main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text{
+      /* margin-left: 29vw; */
+      height:45vh;
+      width:40vw;
+      margin-top: 2vh;
+      border: solid rgb(72, 89, 132) 3px;
+    
+  }
+  .btn{
+      height: 5vh;
+      padding: .5vw;
+      margin-top: 1vh;
+      /* margin-left: 22vw; */
+      width:7vw;
+      border-radius: 10vw solid blue;
+  }
+  .dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    
+    .btn{
+      border:solid white 1.5px;
+      border-radius:5px;
+      padding:15px 30px;
+      font-size:18px;
+      color: white;
+      cursor:pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnn{
+        margin-bottom: 10px;
+    }
+    .btn:hover{
+      background-color:#fff;
+    }
+    
+    .dropdown-options {
+      display: none;
+      position: absolute;
+      overflow: auto;
+      background-color:#fff;
+      border-radius:5px;
+      box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      
+    }
+    
+    .dropdown:hover .dropdown-options {
+      display: block;
+    }
+    
+    .dropdown-options a {
+      display: block;
+      color: #000000;
+      padding: 5px;
+      text-decoration: none;
+      padding:20px 40px;
+      border-bottom: solid black 2px;
+    }
+    
+    .dropdown-options a:hover {
+      color: #0a0a23;
+  
+      border-radius:5px;
+    }
+    .circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color:#fff;
+      /* margin-left: 44vw; */
+      margin-top: 2vh;
+    }
+    .footer{
+      /* margin-left: 46.5vw; */
+      color:#fff;
+      font-size: 4vh;
+    }

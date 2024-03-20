@@ -1,0 +1,62 @@
+
+.contain{
+    /* background-image:url('BackgroundImage.jpg') ; */
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/Users/raghavkatyal/Documents/AbusiveContentDetection/FrontEnd/src/assets/bgImg.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+}
+.box{
+    height: 40vw;
+    width: 30vw;
+    border: solid wheat 2px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.box h1{
+    margin: 3vw 0vw;
+}
+.align{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 1.5vw;
+}
+.align input{
+    height: 3vw;
+}
+.extra{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -1vw;
+    margin-bottom: 3vw;
+}
+.rememb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    
+}
+.submi button{
+    padding: 0.4vw 4vw;
+    border-radius: 10px;
+    margin-bottom: 2vw;
+}
+.reg{
+    display: flex;
+    gap: 5px;
+}
+a{
+    text-decoration: none;
+    color:rgb(109, 5, 5);
+}

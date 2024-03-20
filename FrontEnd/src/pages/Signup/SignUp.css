@@ -1,0 +1,50 @@
+.cont{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("/Users/raghavkatyal/Documents/AbusiveContentDetection/FrontEnd/src/assets/bgImg.png");
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.boxItem{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    border: solid wheat 2px;
+    border-radius: 25px;
+    height: 45vw;
+    width: 35vw;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.name input{
+    border-radius: 10px;
+    height: 3.8vw;
+    padding-left: 6px;
+    margin-left: -4px;
+    border-bottom: solid black 2px;
+}
+.btnn button{
+    padding: 0.4vw 2vw;
+    margin: 2vw 0vw;
+    border-radius: 15px;
+}
+.btnn button:hover{
+    background: white;
+    font-size: 1.5vw;
+    padding: 0.2vw 2vw;
+}
+.already{
+    display: flex;
+  
+    gap: 9px;
+}
+
+  
+
